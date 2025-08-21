@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE Scientific Paper Last Sentence Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blob-bg">
+    <!-- Blobs will be rendered by JS/CSS -->
+  </div>
+  <main>
+    <h1>THE Scientific Paper Last Sentence Generator</h1>
+    <h2>Because your article deserves the best possible conclusion</h2>
+    <form id="sentence-form">
+      <label>
+        You study the impact of
+        <input type="text" id="input1" name="input1" placeholder="" autocomplete="off" required>
+      </label>
+      <label>
+        on
+        <input type="text" id="input2" name="input2" placeholder="" autocomplete="off" required>
+      </label>
+      <button type="submit" id="submit-btn">Submit</button>
+  <div id="loading-bar" class="loading-bar hidden"></div>
+    </form>
+    <div id="result-section" class="hidden">
+      <textarea id="conclusion" readonly></textarea>
+      <button id="copy-btn" title="Copy to clipboard">
+        <span>📋</span>
+      </button>
+    </div>
+    <button id="share-btn" class="hidden">Share</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
