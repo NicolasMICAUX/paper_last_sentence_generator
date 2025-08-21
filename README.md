@@ -2,7 +2,7 @@
 **Because your article deserves the best possible conclusion**
 
 # How to use
-Click here to [try it out](https://the-scientific-paper-last-sentence-generator.vercel.app/).
+Click here to [try it out](https://nicolasmicaux.github.io/paper_last_sentence_generator/).
 
 # Motivation
 In the world of academic publishing, the conclusion of a paper is often the most important part. It is the last chance for authors to make their case and leave a lasting impression on their readers. However, crafting the perfect conclusion can be a daunting task, even for experienced researchers. _(This section was not AI-generated, trust our ethics)_
