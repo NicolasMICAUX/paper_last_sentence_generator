@@ -1,5 +1,5 @@
 # THE Scientific Paper Last Sentence Generator
-Because your article deserves the best possible conclusion
+**Because your article deserves the best possible conclusion**
 
 # How to use
 Click here to [try it out](https://the-scientific-paper-last-sentence-generator.vercel.app/).
