@@ -128,8 +128,7 @@ textarea {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  resize: none;
-  min-height: 80px;
+  min-height: 120px;
 }
 
 #copy-btn {
@@ -168,6 +167,19 @@ textarea {
 }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  form, label, input, button, textarea, #copy-btn, #share-btn {
+    font-size: 1em !important;
+  }
+  
+  body {
+    overflow-y: auto;
+  }
   main {
     max-width: 95vw;
     min-width: 0;
